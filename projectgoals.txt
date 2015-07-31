@@ -1,0 +1,27 @@
+find out what browser the user is using
+
+  this can be done with useragentstring.com
+  or whatismybrowser.com
+
+take this information, and push it to
+
+  caniuse.com
+
+, for example,
+
+  caniuse.com/#search=flexbox
+
+-
+
+caniuse.com uses a lot of javascript, so we need to
+turn off javascript to determine if we can scrape a given page
+
+we do this by going to
+
+  hamburger menu devtools >
+    > advanced settings
+    > Privacy > Content settings...
+    > Javascript > (*) Do not allow any site to run JavaScript
+
+then we investigate the page, in this case caniuse.com,
+to see what we have to work with in our webscraping.

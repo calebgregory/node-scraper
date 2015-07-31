@@ -25,3 +25,7 @@ we do this by going to
 
 then we investigate the page, in this case caniuse.com,
 to see what we have to work with in our webscraping.
+
+with this information, we're going to generate a response to a
+request specifying whether or not our browser supports
+functionality for the feature specified in our url.

@@ -1,0 +1,32 @@
+{
+  "name": "node-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive test/unit",
+    "test-integration": "mocha --recursive test/integration",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebgregory/node-scraper.git"
+  },
+  "author": "Caleb Gregory <calebgregory@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calebgregory/node-scraper/issues"
+  },
+  "homepage": "https://github.com/calebgregory/node-scraper#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.60.0"
+  }
+}
